@@ -10,6 +10,6 @@ module.exports = add;
 
 
 // import the add function to another file
-const add = require('./app.js'); // Directly import the function
+const add = require('../app.js'); // Directly import the function
 
 console.log(add(1, 2)); // Output: 3
